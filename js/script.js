@@ -26,3 +26,28 @@ if (form) {
     }
   });
 }
+
+
+// Hero slider with zoom effect
+const slides = document.querySelectorAll(".hero-slide");
+let currentSlide = 0;
+
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    slide.classList.remove("active");
+    if (i === index) {
+      slide.classList.add("active");
+    }
+  });
+}
+
+function nextSlide() {
+  currentSlide = (currentSlide + 1) % slides.length;
+  showSlide(currentSlide);
+}
+
+// Initial load
+showSlide(currentSlide);
+
+// Change every 8s
+setInterval(nextSlide, 8000);
