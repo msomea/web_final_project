@@ -28,26 +28,58 @@ if (form) {
 }
 
 
-// Hero slider with zoom effect
-const slides = document.querySelectorAll(".hero-slide");
+// Hero slider
+const slideContainers = document.querySelectorAll(".hero-slide-container");
 let currentSlide = 0;
 
 function showSlide(index) {
-  slides.forEach((slide, i) => {
-    slide.classList.remove("active");
+  slideContainers.forEach((container, i) => {
+    container.classList.remove("active");
     if (i === index) {
-      slide.classList.add("active");
+      container.classList.add("active");
     }
   });
 }
 
 function nextSlide() {
-  currentSlide = (currentSlide + 1) % slides.length;
+  currentSlide = (currentSlide + 1) % slideContainers.length;
   showSlide(currentSlide);
 }
 
-// Initial load
 showSlide(currentSlide);
-
-// Change every 8s
 setInterval(nextSlide, 8000);
+
+// Carousel
+const slides = document.querySelectorAll(".carousel-slide");
+const prevBtn = document.querySelector(".carousel-prev");
+const nextBtn = document.querySelector(".carousel-next");
+let carousel_slide = 0;
+
+function showCarouselSlide(index) {
+  slides.forEach((slide, i) => {
+    slide.classList.remove("active");
+    if (i === index) slide.classList.add("active");
+  });
+}
+
+// Show first slide
+showCarouselSlide(carousel_slide);
+
+// Next/Prev buttons
+nextBtn.addEventListener("click", () => {
+  carousel_slide = (carousel_slide + 1) % slides.length;
+  showCarouselSlide(carousel_slide);
+});
+
+prevBtn.addEventListener("click", () => {
+  carousel_slide = (carousel_slide- 1 + slides.length) % slides.length;
+  showCarouselSlide(carousel_slide);
+});
+
+// Optional: auto-slide every 6 seconds
+setInterval(() => {
+  carousel_slide = (carousel_slide + 1) % slides.length;
+  showCarouselSlide(carousel_slide);
+}, 6000);
+
+

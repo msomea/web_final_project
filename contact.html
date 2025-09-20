@@ -8,41 +8,73 @@
   <script defer src="js/script.js"></script>
 </head>
 <body>
-  <header>
-    <div class="logo">KodiCore</div>
-    <nav id="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="properties.html">Properties</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-    </nav>
-    <button id="menu-toggle">☰</button>
-  </header>
+    <!-- Navbar -->
+    <header>
+        <div class="logo">KodiCore</div>
+        <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        </nav>
+        <button id="menu-toggle">☰</button>
+    </header>
 
-  <main>
-    <section class="contact">
-      <h1>Contact Us</h1>
-      <form id="contactForm">
-        <label for="name">Full Name</label>
-        <input type="text" id="name" required>
+    <!-- Main section -->
+    <main>
+        <section class="contact">
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required>
 
-        <label for="email">Email Address</label>
-        <input type="email" id="email" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" required>
 
-        <label for="message">Message</label>
-        <textarea id="message" rows="5" required></textarea>
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required></textarea>
 
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-      <p id="formMessage"></p>
-    </section>
-  </main>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+        </section>
+    </main>
 
-  <footer>
-    <p>&copy; 2025 KodiCore | All rights reserved</p>
-  </footer>
-</body>
-</html>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+        <h3>KodiCore</h3>
+        <p>Your trusted partner in rental property management.</p>
+        </div>
+
+        <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        </div>
+
+        <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p>Email: msomearaphael@gmail.com</p>
+        <p>Phone: +255 652 636 226</p>
+        <p>Dar es Salaam, Tanzania</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 RentalManager. All Rights Reserved.</p>
+    </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    </body>
+    </html>
