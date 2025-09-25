@@ -92,11 +92,11 @@ Vercel: Import project from GitHub
 ## Screenshots
 | Hero Section | About Section |
 |--------------|---------------|
-| ![Hero](images/screenshot/hero.png) | ![About](images/screenshot/about.png) |
+| ![Hero](images/screenshots/hero.png) | ![About](images/screenshots/about.png) |
 
 | Services   | Properties |
 |------------------|-------------------|
-| ![Services](images/screenshot/services.png) | ![Properties](images/screenshot/properties.png) |
+| ![Services](images/screenshots/services.png) | ![Properties](images/screenshots/properties.png) |
 
 
 
