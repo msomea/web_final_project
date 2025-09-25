@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KodiCore - Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
 </head>
 <body>
     <!-- Navbar-->
   <header>
-    <div class="logo">KodiCore</div>
+    <div class="logo">
+            <a href="index.html"><img src="images/favicon.png" alt="KodiCore logo"> KodiCore</a>
+        </div> 
     <nav id="navbar">
       <ul>
         <li><a href="index.html" >Home</a></li>
@@ -25,16 +28,61 @@
 
   <!-- Main Section-->
   <main>
-    <section class="services">
-      <h1>Our Services</h1>
-      <ul>
-        <li>🏠 Rental Property Listings</li>
-        <li>🔑 Tenant Placement Services</li>
-        <li>🔧 Property Maintenance & Repairs</li>
-        <li>📑 Lease Management</li>
-        <li>💼 Full-Service Property Management</li>
-      </ul>
-    </section>
+<section class="services">
+  <div class="container">
+    <h1>Our Services</h1>
+    <p class="intro">
+      We provide complete rental property management solutions to landlords and tenants. 
+      From marketing to maintenance, we take care of everything.
+    </p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <i class="fa-solid fa-bullhorn"></i>
+        <h3>Property Marketing</h3>
+        <p>We list and promote your properties across multiple platforms to find the right tenants fast.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-file-signature"></i>
+        <h3>Tenant Screening</h3>
+        <p>We carefully vet tenants with background checks, rental history, and references for peace of mind.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+        <h3>Rent Collection</h3>
+        <p>Streamlined and secure rent collection with automated reminders and reporting tools.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-screwdriver-wrench"></i>
+        <h3>Maintenance & Repairs</h3>
+        <p>We handle routine maintenance, emergency repairs, and coordinate with reliable contractors.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-scale-balanced"></i>
+        <h3>Legal Assistance</h3>
+        <p>Our team guides you through rental agreements, compliance, and dispute resolution if needed.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>Financial Reporting</h3>
+        <p>Stay updated with monthly statements, income reports, and tax-ready documentation.</p>
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="services-cta">
+      <h2>Ready to Experience Hassle-Free Property Management?</h2>
+      <p>Let us take care of your property while you enjoy peace of mind.</p>
+      <a href="contact.html" class="btn">Get Started Today</a>
+    </div>
+  </div>
+</section>
+
   </main>
 
 <!-- Footer -->
