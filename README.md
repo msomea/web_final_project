@@ -1,5 +1,5 @@
 # web_final_projectRentalPro - Rental Property Management Website
-📖 Project Overview
+📖 **Project Overview**
 
 RentalPro is a responsive multi-page rental property management website built using HTML5, CSS3, and JavaScript.
 It showcases available rental properties, provides company details and services, and includes a contact form with validation.
@@ -14,11 +14,11 @@ Interactive JavaScript functionality
 
 Code organization and deployment
 
-🌐 Live Demo
+🌐 **Live Demo**
 
-👉 Click here to view the live site
+👉[Click here to view the live site](https://msomea.github.io/web_final_project/)
 
-📂 Project Structure
+📂 **Project Structure**
 /rental-website
   /css
     styles.css        # Global styling
@@ -34,17 +34,17 @@ Code organization and deployment
 
 📑 Pages
 
-Home – Hero section, featured properties, quick navigation
+**Home** – Hero section, featured properties, quick navigation
 
-About – Company mission, values, and team introduction
+**About** – Company mission, values, and team introduction
 
-Properties – List of available rentals with images and details
+**Properties** – List of available rentals with images and details
 
-Services – Overview of property management services
+**Services** – Overview of property management services
 
-Contact – Contact form with JavaScript validation
+**Contact** – Contact form with JavaScript validation
 
-🎨 Features
+🎨 **Features**
 
 ✅ Responsive design using Flexbox and Grid
 
@@ -58,17 +58,17 @@ Contact – Contact form with JavaScript validation
 
 ✅ Deployed live on GitHub Pages / Netlify / Vercel
 
-⚙️ Technologies Used
+⚙️ **Technologies Used**
 
-HTML5 – Semantic structure
+**HTML5** – Semantic structure
 
-CSS3 – Layout, styling, responsiveness
+**CSS3** – Layout, styling, responsiveness
 
-JavaScript (ES6) – Menu toggle, form validation
+**JavaScript (ES6)** – Menu toggle, form validation
 
 GitHub Pages / Netlify / Vercel – Deployment
 
-🚀 Deployment Instructions
+🚀 **Deployment Instructions**
 
 Clone this repository:
 
@@ -87,18 +87,27 @@ Netlify: Drag & drop repo or connect GitHub repo
 
 Vercel: Import project from GitHub
 
-📸 Screenshots
+📸 **Screenshots**
 
-(Add screenshots of your site here, e.g. home page, properties page)
+## Screenshots
+| Hero Section | About Section |
+|--------------|---------------|
+| ![Hero](images/screenshot/hero.png) | ![About](images/screenshot/about.png) |
+
+| Services   | Properties |
+|------------------|-------------------|
+| ![Services](images/screenshot/services.png) | ![Properties](images/screenshot/properties.png) |
+
+
 
 ✨ Future Improvements
 
-Add search & filter functionality for properties
+1. To add search & filter functionality for properties
 
-Connect backend/database for dynamic property listings
+2. To connect backend/database for dynamic property listings
 
-Add Google Maps integration for property locations
+3. To add Google Maps integration for property locations
 
 👨‍💻 Author
 
-Your Name – Your GitHub
+[Raphael Msomea](https://github.com/msomea)
